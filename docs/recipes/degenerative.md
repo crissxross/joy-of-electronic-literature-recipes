@@ -15,7 +15,7 @@ yields: >
 github_link: http://motorhueso.net/degenerative
 ---
 
-# ***Degenerative*****: a web page that degenerates with each visit**
+# Degenerative: a web page that degenerates with each visit
 
 **Eugenio Tisselli**  
 **Class of E-lit: code art, web page deformation**  
@@ -29,7 +29,7 @@ github_link: http://motorhueso.net/degenerative
 
 **From the Chef:** 
 
-Background  
+## Background  
 *“Every time someone visits this page, one of the characters that make up the HTML code gets either deleted or replaced. This causes a step-by-step degeneration, not only of the page's content, but also of its structure.”*
 
 These words could originally be read at the top of the *degenerative* web page, a piece I programmed and launched in 2005[^1]. At that time, generative art had become quite popular, so coding a *de-generative* *language art* piece was my way of going against the grain, as I usually do. I was inspired by the work of artists who sought aesthetic pleasure in destruction, such as Gustav Metzger. In 1959, Metzger published his *Auto-Destructive Art Manifesto*, encouraging artists to use perishable or unstable materials that would degrade naturally or through human intervention. Through the progressive or immediate degradation of the artwork, his purpose was to parody what he saw as industrial societies’ “obsession with destruction.” Auto-destructive art was considered by Metzger as a “form of public art for industrial societies” that aesthetically demonstrated the power of those societies to “accelerate disintegrative processes” (Metzger 1959). Pete Townshend, co-founder and guitarist of the British band The Who, was one of Metzger’s most famous students at the Ealing Art College in London. As you might recall, he mirrored his teacher’s lessons by enthusiastically bashing his guitar at the end of the shows.
@@ -40,12 +40,12 @@ The post-industrial, digital *codeworld* compressed into my *degenerative* piece
 
 In this recipe, I will show you how *degenerative* does its destructive thing. It’s actually quite simple, but if you want to set your own version of the piece in motion, you’ll have to make sure you have the proper technical elements and settings in place. Here’s what you will need:
 
-**Ingredients:**
+## **Ingredients:**
 
 \- A plain text editor.  
 \- Access to a remote or local web server with PHP support.
 
-**Directions:**  
+## **Directions:**  
 You will need the editor to write the code of *degenerative*, and the server with PHP support to execute it. Before we start, let’s consider servers and the PHP programming language for a moment. As you surely know, servers are computers that fulfill users’ internet requests. In the ancient World Wide Web, servers delivered mostly static hypertext pages encoded in a standard markup language called HTML. However, as the demands for personalized and context-sensitive content increased, the web became populated by dynamic web pages that contained data that was tailored according to specific requirements before being delivered to the user. PHP, or *Hypertext Pre-Processor*, is a language that carries out such kind of server-side data processing. And yes, it’s true that a considerable number of programmers prefer to avoid PHP. It does feel a little patchy, like it was designed by a gang of crazy monkeys, each with its own idea of how the language should look like. But hey, PHP has been around for 30 years, and I think it’s just perfect for *degenerative*\!
 
 Let’s now dive into the fun part. The *degenerative* code is divided into two parts, each one in a separate file:
@@ -123,7 +123,7 @@ Figure 1 shows the initial state of the piece you just typed. Two of its success
 
 Please let me add a final note. As I write this recipe in 2025, twenty years after originally coding *degenerative*, I can’t shake away the feeling that the digital environment is rapidly falling apart. I look around and it seems like an “unaccommodating, destructive inertia” (that’s how Justin Berner described my work\!) has taken hold of the online spaces in which both trivial and important aspects and events of our lives play out. It’s not a pretty sight, and I just don’t know how to make things better anymore. Perhaps it’s too late for that, and we’d be better off just by letting go of the digital. I really just don’t know. For now, I can only say that we’ve taken our passion for disruption several apps too far, and that these turbulent times ask of us to maybe cool it down so we can imagine ways of rebuilding things and caring for them, rather than breaking them while we move fast. Gentle is the new punk. In that spirit, I hope *degenerative* will remind us of the fragility of our collective, online spaces.
 
-**References.**
+## **References.**
 
 Arroyo, Diego Zorita (2022). *Dilemas ontológicos en la demarcación del hecho literario a raíz de Degenerativa (2005) y Regenerativa (2005) de Eugenio Tisselli*. In *Formas precarias en las literaturas hispánicas del siglo XXI* (pp. 123-135). Peter Lang.
 
