@@ -16,11 +16,11 @@ These fields are at the top of your recipe file between `---` markers:
 - **title** - Your recipe title (max 10 words)
 - **chef** - Your name(s) only, no titles (max 5 words)
 - **abstract** - One sentence summary (max 25 words)
-- **description** - A 250-word summary of your recipe (see below)
+- **description** - A 250-word (max) summary of your recipe (see below)
 - **genres** - Categories for your recipe
 - **custom_genres** - Any additional genre tags
 - **difficulty_pans** - Difficulty rating (1-4 pans)
-- **yields** - What the reader experiences (max 50 words)
+- **yields** - What the reader experiences or the "output" (max 50 words)
 - **github_link** - Link to your project/demo
 
 ### What You Need to Do
@@ -28,7 +28,7 @@ These fields are at the top of your recipe file between `---` markers:
 1. **Write a 250-word description** of your recipe if you haven't already
    - This is the `description` field in the YAML
    - Summarize what your recipe teaches and its context
-   - See your current description in your recipe file for reference
+   - Preserve any line breaks and don't add blank lines in this section as it affects how the yaml is rendered
 
 2. **Review all YAML fields** for accuracy
    - Check your name spelling
@@ -95,7 +95,7 @@ We'll review your changes and merge them into the book.
 
 Add comments or suggested edits directly in the Google Doc for:
 
-- **Your 250-word description** (write it in full if not already there)
+- **Your 250-word description** (write it in full)
 - **Corrections to any YAML fields** (title, chef name, abstract, yields, genres, link)
 - **Any content corrections** (typos, missing steps, broken code examples)
 
