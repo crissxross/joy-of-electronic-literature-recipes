@@ -43,6 +43,11 @@ These fields are at the top of your recipe file between `---` markers:
    - Ensure all steps are clear
    - Verify code examples work as intended
 
+4. **Add images** (if your recipe originally had them)
+   - Upload images to `docs/images/your-recipe-slug/` folder
+   - Reference them in your recipe with relative paths
+   - See the "Adding Images" section below for instructions
+
 ---
 
 ## How to Submit Changes
@@ -155,6 +160,65 @@ github_link: https://your-project-url.com
 ```
 
 Everything after the closing `---` is your full recipe content.
+
+---
+
+## Adding Images to Your Recipe
+
+If your recipe originally included images (screenshots, diagrams, photos), you can add them back:
+
+### Via GitHub (Easiest for Non-Technical Authors)
+
+1. **Navigate to the images folder:**
+   - Go to: https://github.com/markcmarino/joy-of-electronic-literature-recipes/tree/master/docs/images
+   - Click "Add file" → "Create new file"
+   - In the name field, type: `your-recipe-slug/placeholder.md` (this creates the folder)
+   - Click "Commit new file"
+
+2. **Upload your images:**
+   - Navigate to your newly created folder: `docs/images/your-recipe-slug/`
+   - Click "Add file" → "Upload files"
+   - Drag and drop your images
+   - Commit with message: "Add images for [Your Recipe Name]"
+
+3. **Update your recipe markdown:**
+   - Edit your recipe file in `docs/recipes/your-recipe-slug.md`
+   - Add image references where they should appear:
+   ```markdown
+   ![Description of image](../images/your-recipe-slug/image-filename.png)
+
+   *Caption: Brief description of the image*
+   ```
+
+### Via Google Doc (Even Easier)
+
+If you're using the Google Doc for edits:
+1. Insert your images in the Google Doc where they should appear
+2. Add a note indicating the image filename and alt text
+3. We'll handle uploading them to GitHub and adding the proper references
+
+### Image Guidelines
+
+- **Alt text:** Always describe what's in the image (the text in square brackets)
+- **File names:** Use descriptive names: `screenshot-interface.png` not `image1.png`
+- **File size:** Keep images under 2MB when possible
+- **Formats:** PNG for screenshots/diagrams, JPG for photos
+
+**Example in your recipe:**
+
+```markdown
+## Background
+
+Here's what the interface looks like:
+
+![Screenshot showing the main text manipulation interface](../images/my-recipe/interface-screenshot.png)
+
+*Figure 1: The main interface with text controls on the left*
+
+As you can see in Figure 1, the interface provides...
+```
+
+For complete image guidelines, see: https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/images/README.md
 
 ---
 

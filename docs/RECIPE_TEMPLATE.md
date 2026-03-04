@@ -71,6 +71,12 @@ Example:
 - [Project Name](https://example.com) - Brief description
 - [Another Example](https://example.com) - Brief description
 
+[You can also include screenshots or images here:]
+
+![Screenshot of a finished project using this recipe](../images/your-recipe-slug/example-screenshot.png)
+
+*Screenshot from [Project Name], demonstrating the visual output of this recipe*
+
 ## **Additional reading**
 
 [Scholarly articles, tutorials, documentation, or other resources that provide
@@ -253,15 +259,81 @@ Always specify the language for syntax highlighting:
 
 ### **Images:**
 
-If you include images, reference them like:
+**Adding Images to Your Recipe:**
+
+1. **Create your image folder** in `docs/images/your-recipe-slug/`
+   - Use the same slug as your recipe filename
+   - Example: If your recipe is `docs/recipes/distant-feelings.md`, create `docs/images/distant-feelings/`
+
+2. **Add your images** to that folder:
+   ```
+   docs/images/distant-feelings/
+   ├── screenshot-session-2020-04-17.png
+   ├── diagram.jpg
+   └── interface-closeup.png
+   ```
+
+3. **Reference images** in your recipe using relative paths:
+   ```markdown
+   ![Screenshot from Distant Feelings session](../images/distant-feelings/screenshot-session-2020-04-17.png)
+
+   *Figure 1: Screencapture from Distant Feelings confinement #4 session, April 17, 2020*
+   ```
+
+**Image Best Practices:**
+
+- **Always include descriptive alt text** (the text in square brackets)
+  - Good: `![Participant with closed eyes during telematic session](../images/recipe/image.png)`
+  - Bad: `![Screenshot](../images/recipe/image.png)`
+
+- **Add captions** using italics after the image for additional context:
+  ```markdown
+  ![Alt text here](../images/recipe/figure-1.png)
+
+  *Figure 1: Caption explaining what the image shows and why it matters*
+  ```
+
+- **Use appropriate file formats:**
+  - PNG for screenshots, diagrams, or images with text (better quality)
+  - JPG for photos (smaller file size)
+  - SVG for vector graphics (scalable)
+
+- **Optimize file sizes:**
+  - Keep images under 2MB when possible
+  - Resize large screenshots to 1200-1600px wide max
+  - Use image optimization tools (TinyPNG, ImageOptim, etc.)
+
+- **Name files descriptively:**
+  - Good: `screenshot-gameplay.png`, `figure-1-rules-order.png`
+  - Bad: `img1.png`, `image.png`, `screenshot.png`
+
+**Adding Images via GitHub:**
+
+- **Web interface:** Navigate to `docs/images/` on GitHub → "Add file" → "Upload files"
+- **Command line:**
+  ```bash
+  mkdir -p docs/images/my-recipe
+  cp ~/Desktop/my-image.png docs/images/my-recipe/
+  git add docs/images/my-recipe/
+  git commit -m "Add images for My Recipe"
+  git push
+  ```
+
+**Full Example in Recipe:**
+
 ```markdown
-![Alt text description](path/to/image.png)
+## Background
+
+The project creates an immersive experience through visual feedback.
+
+![Screenshot of the main interface](../images/my-recipe/interface-screenshot.png)
+
+*Figure 1: The main interface showing the text manipulation controls*
+
+As you can see in Figure 1, the interface provides...
 ```
 
-Or if using external links:
-```markdown
-![Alt text](https://example.com/image.png)
-```
+For complete image guidelines, see [docs/images/README.md](images/README.md).
 
 ### **Internal Links:**
 
