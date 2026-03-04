@@ -158,9 +158,7 @@ Everything after the closing `---` is your full recipe content.
 
 ## Questions?
 
-If you have questions about:
-- **GitHub process**: [contact email/info]
-- **Content questions**: [contact email/info]
-- **YAML field meanings**: See the field descriptions at the top of this document
+If you have questions about the process of editing, contact Mark.
+If you have questions about your revision, contact your editor.
 
 Thank you for your contribution to this cookbook!
