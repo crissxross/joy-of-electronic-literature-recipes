@@ -9,6 +9,8 @@ Your recipe has two parts:
 1. **YAML Metadata** (at the top of your file) - This will appear in the published book
 2. **Recipe Content** (the main body) - The full recipe instructions and background
 
+**Recipe Template Reference:** For a complete guide to recipe structure and sections, see [docs/RECIPE_TEMPLATE.md](docs/RECIPE_TEMPLATE.md) in the repository.
+
 ### YAML Fields That Will Appear in the Book
 
 These fields are at the top of your recipe file between `---` markers:
@@ -156,9 +158,25 @@ Everything after the closing `---` is your full recipe content.
 
 ---
 
+## Recipe Structure Reference
+
+For detailed guidance on recipe structure, sections, and formatting, see the comprehensive **[Recipe Template](docs/RECIPE_TEMPLATE.md)**.
+
+The template includes:
+- All recommended sections (From the Chef, Background, Samples, Recipe, Ingredients, Directions, etc.)
+- YAML field constraints and examples
+- Code formatting guidelines
+- Writing tips and best practices
+- Examples of how to structure variations, related recipes, and citations
+
+You don't need to follow the template exactly—it's a reference to help you understand the common structure and what sections are available to you.
+
+---
+
 ## Questions?
 
 If you have questions about the process of editing, contact Mark.
 If you have questions about your revision, contact your editor.
+For recipe structure guidance, see [docs/RECIPE_TEMPLATE.md](docs/RECIPE_TEMPLATE.md).
 
 Thank you for your contribution to this cookbook!
