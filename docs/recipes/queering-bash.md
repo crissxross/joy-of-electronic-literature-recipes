@@ -102,7 +102,8 @@ queer@joy:~$ cd queerkitchen
 
    
 ## **Starter code:**   
-**Serving Dish \- Infinite Missing**  
+
+### **Serving Dish \- Infinite Missing**  
 ![The terminal output of infinite missing](../images/queer-bashing/soon1.png)
 *The terminal output of infinite missing*
 
