@@ -46,7 +46,7 @@ Media Artist, Creative Technologist
 
 Have you ever watched a lyric video on YouTube, where the words to a song appear on screen in time with the music? Even before the term “lyric video” came into use, I found there to be something magical about this format. I think it’s because words can have such surprising, sudden effects on us — as much as any tangible object — and yet, they have no physical presence when spoken or sung. Whether they emerge from the organic vibrations of a cartilaginous larynx, or from the mechanical movements of an electrodynamic diaphragm, the unique sounds our brains transduce into meaning do not literally hang in the air as visible language. The lyric video, however, appeals to the part of us that wants them to, inviting us into an illusion that the singer’s voice is conjuring visible language in real time.
 
-
+![Still from an unofficial multi-channel lyric video for “One Day More” from Les Miserables, created with Stepworks.](../images/interactive-lyric-videos/loyer2.png)
 *Still from an unofficial multi-channel lyric video for “One Day More” from* Les Miserables*, created with Stepworks.*
 
 This illusion has long been a fascination for me. In a 2007 piece called “Swing” ([https://erikloyer.com/index.php/projects/detail/swing](https://erikloyer.com/index.php/projects/detail/swing)), I first experimented with the idea of an interactive lyric video; one in which the user’s gestures would cause the lyrics to advance, one syllable at a time. While creating the piece I found that, when performed with the right timing, there’s a peculiar feedback loop that happens in which one feels that they are both “playing” and “being played by” the singer’s words. This dynamic was part of the genesis of my home-grown rhythmic storytelling tool Stepworks ([https://step.works](https://step.works)). 
@@ -97,8 +97,7 @@ Hel
 
 9\. 	Now comes the fun part\! Click “Refresh,” put on the song, and then click or press keys in time with the music so that the lyrics sync up with the vocalist.  
 
-**![][image2]**
-
+![*Final result of the single-channel interactive lyric video recipe.*](../images/interactive-lyric-videos/loyer1.png)
 *Final result of the single-channel interactive lyric video recipe.*
 
 ### Notes: 
