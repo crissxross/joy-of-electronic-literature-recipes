@@ -98,12 +98,12 @@ when compiled, the execution produces a result. The code must run.
 ## Ingredients
 
 - Computer or phone
-- Creativity
 - Code editor (a plain text editor will do in a pinch)
 - Paper or spreadsheet (for planning your word lists)
 - A web browser
 
 **Preparation and cooking time:** 15 minutes
+
 **Servings:** 1 generator
 
 ## From the Chefs
