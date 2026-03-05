@@ -83,11 +83,11 @@ What is your favourite thing in the world? Playing football, reading books, talk
 
 They select a narrative perspective, then are offered a checklist of how their “favourite thing” interacts with the environment, such as whether it involves travel, resource mining, electricity, shipping, food, and more.
 
-![][image1]
+![Figure 1.](../images/kids-in-the-kitchen/skains1.png)
 
 Then, like Prompter V1, the interface directs the student to get their own Twine game started, and gives a generated starter passage to copy and paste into the first passage. This text includes a link for each environmental effect of that personal interest, creating a new passage for each where the student is urged to figure out—through research, discussion, creative and critical thinking—how to reduce these impacts.
 
-![][image2]
+![Figure 2.](../images/kids-in-the-kitchen/skains2.png)
 
 The YCO2 Story Prompter does pretty much what it says on the tin: it prompts the story rather than generating it. The new narrative designer still has to engage and utilize various learning methods, writing and thinking skills, and digital development pathways. The prompter is much less a box mix and more of a starter dough, requiring subsequent mixing, proofing, rising, kneading, and baking as the student truly takes their first steps into an electronic literature practice.
 
