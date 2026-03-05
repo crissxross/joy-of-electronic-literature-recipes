@@ -3,27 +3,7 @@ title: Jolly Apogee A Minimal Embodied Gesture Poem
 chef: Judd Morrissey
 abstract: A smartphone gesture poem activated by bodily movement, drawn from a large-scale performance merging embodied poetics and queer archive.
 description: >
-  "Jolly Apogee" is a minimal embodied gesture poem developed from the closing text of
-  ATOM-r's large-scale performance The Operature, a work exploring the archive of Samuel
-  Steward—Chicago writer, tattoo artist, and friend of Gertrude Stein—alongside the
-  history of the anatomical theatre and embodied queer desire. Judd Morrissey built the
-  poem in p5.js, designed to be activated on a smartphone: the reader holds the device
-  in landscape mode, then moves their hand and arm with force in the direction indicated
-  by an on-screen icon. The phone's accelerometer detects the gesture and advances the
-  poem line by line, encouraging simultaneous reading aloud and physical movement
-  through space.
-
-  The recipe offers a body-writing workflow: participants write freely in response to a
-  David Wojnarowicz image and the prompt "Reflect upon the history of your body as both
-  forensics and banquet," then substitute their own lines into the poem's source array
-  in the p5.js editor. A parallel exercise asks writers to reflect on the life of a body
-  from another time.
-
-  The recipe draws on the concept of the "transhistorical crush"—artists communicating
-  across time through aesthetic and ethical alignment—as a framework for situating one's
-  own body within a literary lineage. The poem is remixable and Morrissey invites anyone
-  who creates a new version to share it, with the aim of hosting remix poems and
-  performing them together at future ELO events.
+    Please write a description, under 250 words.
 genres:
   - Performance/Experience
   - Word Manipulation
