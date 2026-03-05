@@ -3,8 +3,8 @@ title: Human in the Soup
 chef: Andrew Klobucar
 abstract: Six electronically generated poems using PoemChef, exploring generative
   writing systems while keeping the human element central to the creative process.
-description: >
-Write a description of under 250 words.
+description:>
+  Write a description of under 250 words.
 genres:
   - Generative Poetry
 custom_genres:
