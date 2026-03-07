@@ -95,8 +95,9 @@ We'll review your changes and merge them into the book.
 ### Option B: Google Doc Notes (If GitHub Seems Complicated)
 
 **Step 1: Find Your Recipe**
-1. Go to this Google Doc: https://docs.google.com/document/d/1MNl1U1USpvkdCmg5grDiOsE0S2k37FTTtq0_9ctQKRw/edit?tab=t.fw2pzhj6d17i
-2. Find your recipe tab at the bottom of the document
+1. Go to this Google Doc: https://docs.google.com/document/d/1SklmInCp-2j4YPgmRHsCtLDceiuClT2ZWR64z53leFg/edit?usp=sharing
+2. Find your recipe tab
+3. Add a comment for your Descriptions/Yield and leave a comment on any text or other content that needs correcting.
 
 **Step 2: Add Your Changes**
 
