@@ -189,14 +189,6 @@ If your recipe originally included images (screenshots, diagrams, photos), you c
 
    *Caption: Brief description of the image*
    ```
-
-### Via Google Doc (Even Easier)
-
-If you're using the Google Doc for edits:
-1. Insert your images in the Google Doc where they should appear
-2. Add a note indicating the image filename and alt text
-3. We'll handle uploading them to GitHub and adding the proper references
-
 ### Image Guidelines
 
 - **Alt text:** Always describe what's in the image (the text in square brackets)
