@@ -12,6 +12,7 @@ difficulty_pans: 3
 yields: >
   Add yields, 50 words or less
 github_link: https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/minimal-algorithmic-editor.md
+---
 
 # A Minimal Algorithmic Editor
 
