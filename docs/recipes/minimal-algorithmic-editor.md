@@ -4,26 +4,7 @@ chef: Kyle Booten
 abstract: A recipe for building a personalized algorithmic editor that uses regular
   expressions to detect writing patterns and insert custom annotations prompting revision.
 description: >
-  A Minimal Algorithmic Editor is a recipe for building a personalized
-  computational writing partner — simpler than a spell-checker but more flexible.
-  The human writer identifies patterns in their own text that could be improved:
-  vague words, repeated sentence openings, missed opportunities for specificity
-  or wit. They then encode these observations as regular expressions, write
-  personalized editorial annotations for each pattern, and run a script that
-  automatically marks up their text with those notes.
-
-  The recipe walks through five steps: writing a source text; identifying places
-  for development; composing regular expressions to detect those patterns;
-  composing annotations; and running a Perl or Python script to annotate the text.
-  The annotations can be practical ("use a more specific word") or provocative
-  ("implicitly contradict Adorno's critique of jazz"). A probabilistic system
-  ensures the editor flags only some instances, keeping feedback surprising.
-
-  The piece sits at the intersection of computational poetics and editorial
-  practice. Rather than outsourcing judgment to a pre-trained AI, the writer must
-  externalize and formalize their own aesthetic sensibilities as code. In doing
-  so, they often discover things about their writing habits they had not
-  consciously noticed. The code itself becomes a form of self-knowledge.
+   [Please write description in 250 words or less]
 genres:
   - Human-computer collaboration
   - Machine reading
