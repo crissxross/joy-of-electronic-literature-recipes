@@ -43,17 +43,60 @@ These fields are at the top of your recipe file between `---` markers:
    - Ensure all steps are clear
    - Verify code examples work as intended
 
-4. **review images** 
-   - Upload images to `docs/images/your-recipe-slug/` folder
-   - Reference them in your recipe with relative paths
-   - See the "Adding Images" section below for instructions
+4. **Review images**
+   - Images have already been migrated to GitHub
+   - Check that they appear correctly in your recipe
+   - Let us know if any are missing, incorrectly placed, or need captions updated
+   - See your recipe on GitHub to view the images
+
 ---
 
 ## How to Submit Changes
 
 Choose the method that works best for you:
 
-### Option A: GitHub Pull Request (If You're Comfortable with GitHub)
+### Option A: Google Doc Comments & Suggestions (Recommended)
+
+**Step 1: Find Your Recipe**
+1. Go to this Google Doc: https://docs.google.com/document/d/1SklmInCp-2j4YPgmRHsCtLDceiuClT2ZWR64z53leFg/edit?usp=sharing
+2. Find your recipe tab
+3. **Note:** You have "comment" access only - this allows us to track all changes and ensure nothing gets accidentally edited
+
+**Step 2: Make Suggestions Using Suggesting Mode**
+
+For text changes (description, corrections, etc.):
+
+1. **Switch to Suggesting mode:**
+   - Click the pencil icon (top right)
+   - Select "Suggesting" (or use Ctrl+Alt+M / Cmd+Option+M)
+
+2. **Make your edits** - they'll appear as suggestions we can approve:
+   - Write or edit your 250-word description and 50-word yields
+   - Correct any YAML fields
+   - Fix typos or clarify content
+
+**Step 3: Use Comments for Notes**
+
+For questions or notes about images:
+
+- **Highlight text** → Click "Add comment" (or Ctrl+Alt+M)
+- Use comments to:
+  - Ask questions about your recipe
+  - Note where images should be moved or if any are missing
+   - Request caption updates for images
+  - Flag sections that need attention
+
+**Example comment for image issues:**
+> "This image should appear earlier, before the 'Background' section"
+> "Missing screenshot of the final output"
+> "Update caption to: Figure 1: The PoemChef interface with theme selector"
+
+**Step 4: Done!**
+We'll review your suggestions and comments, then transfer approved changes to GitHub.
+
+---
+
+### Option B: GitHub Pull Request (If You're Comfortable with Git)
 
 **Step 1: Fork and Clone**
 1. Go to: https://github.com/markcmarino/joy-of-electronic-literature-recipes
@@ -88,29 +131,6 @@ Choose the method that works best for you:
 
 **Step 4: Done!**
 We'll review your changes and merge them into the book.
-
----
-
-### Option B: Google Doc Notes (If GitHub Seems Complicated)
-
-**Step 1: Find Your Recipe**
-1. Go to this Google Doc: https://docs.google.com/document/d/1SklmInCp-2j4YPgmRHsCtLDceiuClT2ZWR64z53leFg/edit?usp=sharing
-2. Find your recipe tab
-3. Add a comment for your Descriptions/Yield and leave a comment on any text or other content that needs correcting.
-
-**Step 2: Add Your Changes**
-
-Add comments or suggested edits directly in the Google Doc for:
-
-- **Your 250-word description** (write it in full)
-- **Corrections to any YAML fields** (title, chef name, abstract, yields, genres, link)
-- **Any content corrections** (typos, missing steps, broken code examples)
-
-Use Google Docs comment feature:
-- Highlight text → Click "Add comment" → Type your suggested change
-
-**Step 3: Done!**
-We'll transfer your changes to GitHub and update your recipe.
 
 ---
 
@@ -163,54 +183,31 @@ Everything after the closing `---` is your full recipe content.
 
 ---
 
-## Adding Images to Your Recipe
+## Reviewing Images
 
-If your recipe originally included images (screenshots, diagrams, photos), you can add them back:
+**Good news:** All images have already been migrated to GitHub for you!
 
-### Via GitHub (Easiest for Non-Technical Authors)
+### What to Check:
 
-1. **Navigate to the images folder:**
-   - Go to: https://github.com/markcmarino/joy-of-electronic-literature-recipes/tree/master/docs/images
-   - Click "Add file" → "Create new file"
-   - In the name field, type: `your-recipe-slug/placeholder.md` (this creates the folder)
-   - Click "Commit new file"
+1. **View your recipe on GitHub** to see the images in context:
+   - Go to: https://github.com/markcmarino/joy-of-electronic-literature-recipes/tree/master/docs/recipes
+   - Find your recipe file and click to view it
 
-2. **Upload your images:**
-   - Navigate to your newly created folder: `docs/images/your-recipe-slug/`
-   - Click "Add file" → "Upload files"
-   - Drag and drop your images
-   - Commit with message: "Add images for [Your Recipe Name]"
+2. **Check that images:**
+   - Appear in the correct locations
+   - Have appropriate captions
+   - Are the right size/quality
+   - Are not missing any from your original recipe
 
-3. **Update your recipe markdown:**
-   - Edit your recipe file in `docs/recipes/your-recipe-slug.md`
-   - Add image references where they should appear:
-   ```markdown
-   ![Description of image](../images/your-recipe-slug/image-filename.png)
-
-   *Caption: Brief description of the image*
+3. **If you notice issues**, add a comment in the Google Doc:
    ```
-### Image Guidelines
+   IMAGE ISSUE:
+   - Missing: screenshot of the final output
+   - Wrong location: Figure 2 should appear before the "Directions" section
+   - Caption update: Should read "Figure 1: The interface with controls"
+   ```
 
-- **Alt text:** Always describe what's in the image (the text in square brackets)
-- **File names:** Use descriptive names: `screenshot-interface.png` not `image1.png`
-- **File size:** Keep images under 2MB when possible
-- **Formats:** PNG for screenshots/diagrams, JPG for photos
-
-**Example in your recipe:**
-
-```markdown
-## Background
-
-Here's what the interface looks like:
-
-![Screenshot showing the main text manipulation interface](../images/my-recipe/interface-screenshot.png)
-
-*Figure 1: The main interface with text controls on the left*
-
-As you can see in Figure 1, the interface provides...
-```
-
-For complete image guidelines, see: https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/images/README.md
+We'll make any necessary adjustments to the images based on your feedback.
 
 ---
 
