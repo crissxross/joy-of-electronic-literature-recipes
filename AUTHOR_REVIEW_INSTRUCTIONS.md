@@ -28,7 +28,7 @@ These fields are at the top of your recipe file between `---` markers:
 ### What You Need to Do
 
 1. **Write a 250-word description and 50-word yields** of your recipe if you haven't already
-   - These are in the `description` and 'yields' fields in the YAML
+   - These are in the `description` and `yields` fields in the YAML
    - Summarize your recipe, what it teaches, and what it yields
    - If you are editing in Github, preserve any line breaks and don't add blank lines in this section as it affects how the yaml is rendered
 
