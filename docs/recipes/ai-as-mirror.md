@@ -8,11 +8,8 @@ genres:
   - Human-computer collaboration
 difficulty_pans: 2
 yields: >
-  Three distinct AI self-portraits: a scripted keyword-matching chatbot, a Markov chain
-  text remixer, and an LLM personalized with your own writings—each revealing different
-  facets of digital selfhood.
-
-github_link: https://tinyurl.com/scriptedself
+  write 50-words or less yileds
+github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/ai-as-mirror.md?plain=1)
 ---
 
 # AI as Mirror \- Recipes for Three Versions of Digital Selves
