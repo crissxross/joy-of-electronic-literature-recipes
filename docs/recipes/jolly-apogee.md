@@ -9,8 +9,8 @@ genres:
   - Word Manipulation
 difficulty_pans: 3
 yields: >
-  Write 50-words or less for yields
-github_link:(https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/jolly-apogee.md)
+   Write 50-words or less for yields
+github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/jolly-apogee.md)
 ---
 # **Jolly apogee: A Minimal Embodied Gesture Poem**
 
