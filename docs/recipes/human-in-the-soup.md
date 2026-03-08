@@ -13,10 +13,8 @@ custom_genres:
   - Algorithmic poetry
 difficulty_pans: 2
 yields: >
-  Six poems in different genres generated collaboratively with PoemChef,
-  performable as a literary tasting plate for an open reading, with the human
-  poet retaining authorial control over theme, literary device, and final lines.
-github_link: https://poemchef.andrewklobucar.com/
+  Write what this yields in 50 words or less.
+github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/human-in-the-soup.md?plain=1)
 ---
 # **Human in the Soup: Literary Taste Designed as Ready-to-Read Six Poem Course Plate with an Easy Algorithmic Model and Directions**
 
