@@ -3,13 +3,13 @@ title: À la recherche du lieu perdu
 chef: Chris Klimas
 abstract: A Twine recipe for recreating a place from memory as an explorable hypertext space, without plot or character decisions—just space.
 description: > 
-    [Please write 250 words]
+    Please write 250 words
 genres:>
   - Hypertext
 difficulty_pans: 1
 yields: >
-  [Add 50-words or less yields]
-github_link: https://www.twinery.org
+  Add 50-words or less yields
+github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/a-la-recherche-du-lieu-perdu.md)
 ---
 
 #  À la recherche du lieu perdu
