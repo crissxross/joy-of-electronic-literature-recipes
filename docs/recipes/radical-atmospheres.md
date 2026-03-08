@@ -7,7 +7,7 @@ description: > [Please, write 250 words or less]
 genres:
   - Audio
   - Augmented Reality
-custom_genres:
+custom_genres: >
   - Audio AR
   - Archival poetics
 difficulty_pans: 1
