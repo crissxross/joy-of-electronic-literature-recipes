@@ -8,9 +8,7 @@ genres:>
   - Hypertext
 difficulty_pans: 1
 yields: >
-  A Twine story that recreates a remembered place as a linked map of passages, inviting
-  visitors to wander, examine details, and experience memory as an explorable, sensory
-  hypertext space.
+  [Add 50-words or less yields]
 github_link: https://www.twinery.org
 ---
 
