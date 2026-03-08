@@ -12,11 +12,8 @@ custom_genres:
   - Climate fiction
 difficulty_pans: 2
 yields: >
-  A starter Twine passage ready to copy and paste into a new Twine work, with
-  branching links for students to develop further through research, critical
-  thinking, and digital writing — a starter dough requiring subsequent mixing,
-  proofing, and baking.
-github_link: https://youandco2.org/prompt/
+ Write what this yields in 50 words or less.
+github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/kids-in-the-kitchen.md?plain=1)
 ---
 
 # Kids in the Kitchen: A Starter Dough for New Narrative Designers 
