@@ -1,8 +1,8 @@
 ---
 title: Radical Atmospheres
 chef: Andrew Demirjian
-abstract: A workflow for reorganizing archival source texts using regular expressions
-  and NLP to generate poetic material for audio augmented reality experiences.
+abstract: 
+   A workflow for reorganizing archival source texts using regular expressions and NLP to generate poetic material for audio augmented reality experiences.
 description: > [Please, write 250 words or less]
 genres:
   - Audio
@@ -12,9 +12,7 @@ custom_genres:
   - Archival poetics
 difficulty_pans: 1
 yields: >
-  A set of poetically reorganized text excerpts from a source document, ready
-  for recording as audio and deploying in a physical location or virtual
-  equivalent using audio augmented reality applications.
+ write 50-word or less yields
 github_link: https://rw-app-spaces-speak.surge.sh/
 ---
 
