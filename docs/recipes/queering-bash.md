@@ -3,13 +3,13 @@ title: Queering Bash Love Poems as Recipes
 chef: Winnie Soon and Mara Karagianni
 abstract: Create electronic poetry using Bash terminal commands that transform code into love letters and feelings.
 description: >
-  [Please insert 250 words or less descriptions]
+  Please write 250 words or less description
 genres:
   - Generative Poetry
 difficulty_pans: 1
 yields: >
-  A terminal-based love poem that loops infinitely, each iteration adding layers of longing through expanding text visible in your command line.
-github_link: https://git.systerserver.net/systerserver/queering-bash
+  Please write 50 words or less of yield
+github_link: https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/queering-bash.md
 ---
 # Queering Bash: Love Poems, as Recipes
 
