@@ -3,13 +3,13 @@ title: Modest Beginnings
 chef: Milagros Vilaplana
 abstract: Create animated kinetic poetry using Microsoft PowerPoint's Morph and Animation features for mixed media verse.
 description: >
-  [Write your 250 words or less description]
+  Write your 250 words or less description
 genres:
   - Generative Poetry
 difficulty_pans: 2
 yields: >
-  Animated poetry presentations that combine text, images, and sound, with kinetic effects that transform words into moving visual elements on screen.
-github_link: https://youtu.be/IocvcQZVbfY
+  Write 50 words or less for recipe yield
+github_link: https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/modest-beginnings.md
 ---
 
 # **Modest Beginnings**   
