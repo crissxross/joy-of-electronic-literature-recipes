@@ -8,10 +8,8 @@ genres:
   - Hypertext
 difficulty_pans: 2
 yields: >
-  A playable parser-based interactive fiction teaching Inform fundamentals through
-  world-building and custom action creation, with gameplay revealing a narrative of
-  grief and comfort through making grandmother's mashed soup.
-github_link: https://mm45nx3c.play.borogove.io/
+  Please write 50 words or less describing the yield
+github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/mashed-soup.md)
 ---
 # *Mashed Soup*: An Inform Tasting and Recipe Variously Spiced
 
