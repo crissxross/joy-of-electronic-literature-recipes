@@ -3,13 +3,13 @@ title: Less-Thought - A General Art-Recipe for Joyous E-Lit
 chef: David Jhave Johnston
 abstract: Abstract recipe prioritizing spontaneous improvisation, intuition, and joy over conceptual planning when creating electronic literature.
 description: >
- [Please add 250 word summary]
+ Please add 250 word summary
 genres:
   - Generative Poetry
 difficulty_pans: 1
 yields: >
-  A practice of creating electronic literature through spontaneous joy rather than conceptual planning, applicable across any technology or medium.
-github_link: https://glia.ca/
+  Write 50 words or less for recipe yield
+github_link: https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/less-thought.md
 ---
 # **Less-Thought: a General Art-Recipe for Joyous E-Lit**
 
