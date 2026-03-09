@@ -3,13 +3,13 @@ title: A Cyborg Digital Writing Primer
 chef: Leonardo Flores
 abstract: Learn to create digital writing by hacking existing works or using AI to generate frameworks.
 description: >
- [Please write 250 words or less summary]
+ Please write 250 words or less summary
 genres:
   - Generative Poetry
 difficulty_pans: 1
 yields: >
-  HTML-based digital writing works that can be interactive, generative, or kinetic, ranging from simple word sequences to complex textual systems.
-github_link: https://iloveepoetry.org/creative/sequence.html
+  Please write 50 words or less for yield
+github_link: https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/cyborg-digital-writing.md
 ---
 
 # A Cyborg Digital Writing Primer
