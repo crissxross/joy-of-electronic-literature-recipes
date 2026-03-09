@@ -3,13 +3,13 @@ title: How to Bake a Citation Cake
 chef: Stephanie Strickland and Ian Hatcher
 abstract: Create randomly recombinant text from curated citations using HTML and JavaScript to explore information quality.
 description: >
-  [Put 250 words or less here.]
+  Put 250 words or less here.
 genres:
   - Generative Poetry
 difficulty_pans: 1
 yields: >
-  A rich confection of randomly combined citations that can be rebaked infinitely, revealing new juxtapositions with each iteration.
-github_link: https://stephaniestrickland.com/projects/liberty-ring
+  Write 50 words or less for recipe yield
+github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/citation-cake.md)
 ---
 
 
