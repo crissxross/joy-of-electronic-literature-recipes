@@ -3,13 +3,13 @@ title: The Arabian Labyrinth Technique
 chef: Ryan Veeder
 abstract: Create expansive text adventure locations using coordinate-based virtual space in Inform 7.
 description: >
-  This technique allows authors to create the illusion of vast, explorable spaces in parser-based interactive fiction without defining hundreds of individual rooms. Instead of creating a massive grid of interconnected locations, the Arabian Labyrinth technique uses a single Inform 7 room with coordinate tracking to simulate wandering through expanses like deserts, forests, or moonscapes. Named after Jorge Luis Borges' story about a king who abandons his enemy in the desert, this method creates a labyrinth "which has no stairways to climb, nor walls to impede thy passage." The technique involves tracking player position with latitude and longitude variables, using tables to handle directional movement, and implementing scenery rules to make objects and landmarks appear at specific coordinates. This creates navigation puzzles distinct from traditional maze-based interactive fiction, allowing for impressions of wandering through woodland, windblown deserts, swamps, or even lunar surfaces while maintaining the technical simplicity of a single location.
+  Please write 250 words or less for Description
 genres:
   - Hypertext
 difficulty_pans: 4
 yields: >
-  A functionally infinite explorable space that feels like a real expanse, with discoverable landmarks, items, and boundaries that can be visible or invisible.
-github_link: https://playfic.com/games/Afterward/arabian-labyrinth
+  Please write 50 words or less for yield.
+github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/arabian-labyrinth.md)
 ---
 
 # The Arabian Labyrinth Technique \- a recipe for expansive locations in Inform 7
