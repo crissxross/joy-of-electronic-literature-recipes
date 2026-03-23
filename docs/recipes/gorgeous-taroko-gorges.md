@@ -16,12 +16,12 @@ genres:
   - Generative Poetry
 difficulty_pans: 2
 yields: An infinite, ever-changing poem that runs continuously, producing new lines of verse with each cycle.
-github_link: https://nickm.com/poems/taroko_gorge/
+github_link: https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/gorgeous-taroko-gorges.md  
 ---
 # Gorgeous Taroko Gorges
 
 **Chef:** Mark C. Marino (h/t to Nick Montfort)
-**Affiliation:**
+**Affiliation: USC **
 
 **Class of E-lit: Poetry Generators**
 **Dish: An infinite poetry generator**
