@@ -3,7 +3,7 @@ title: Online Survey Poems
 chef: Alex Saum-Pascual
 abstract: Repurpose corporate survey platforms like Google Forms to create interactive poetry and narrative prose.
 description: >
-  Write 250 word or less description
+  Not all great meals are cooked from scratch—sometimes creative seasoning transforms store-bought ingredients into something remarkable. This recipe teaches how to turn tedious online surveys into literary works that repurpose user interactivity to create new poetic or narrative experiences. By hacking familiar corporate tools like Google Forms, Survey Monkey, or Qualtrics, writers can create multiple-choice poetry that critiques the very platforms it uses. The approach treats survey elements—questions, answer options, sections, and text fields—as poetic tools, reframing data-gathering instruments as literary media. Works like Porpentine's "All Your Time-Tossed Selves" demonstrate how multiple-choice selections can determine narrative paths, while highlighting the circular nature of choice within constrained systems. This method embraces the contradictions of using corporate technology for artistic intervention, exposing hidden functionalities and the limits of user agency. The resulting works blend high and low culture, combining readymade conceptual art with accessible web platforms to demystify ubiquitous computing and digital surveillance.
 genres:
   - Hypertext
 custom_genres:
@@ -97,3 +97,29 @@ A survey poem can be as simple or as complex as you like.
 * Medium: Use multiple sections to create a narrative arc, and experiment with images and links.   
 * Advanced: Incorporate conditional logic (“Go to section based on answer”) to create a choose-your-own-adventure poem, or use extremely long verses to play with display limits, or add multimedia elements like audio files to add ambiance. 
 
+**Advanced**: Incorporate conditional logic ("Go to section based on answer") to create choose-your-own-adventure poems, use extremely long verses to play with display limits, add multimedia elements like audio files for ambiance
+
+### Examples
+
+**All Your Time-Tossed Selves** by Porpentine (2016)
+https://docs.google.com/forms/d/e/1FAIpQLScchacxWNnOHt6oMoXtU0vzOqeLFP7ZniPodGj81QrfdRvEcQ/viewform
+
+An interactive narrative about a mysterious city's destruction where reader choices determine their escape plan, though all paths reveal the inevitable doom.
+
+**Room #1** by Alex Saum (2020)
+https://docs.google.com/forms/d/e/1FAIpQLSfZ4C9Q4i_KCwuDei2kK1SV7GyVQrWYozEavjbi-xpCqv55OA/viewform
+
+Engages the reflective nature of the questionnaire form, highlighting the lack of transparency in surveying platforms as well as other hidden systems that edit the reality of a woman's life.
+
+### Further Reading
+
+**Literary Precedents:**
+- Ashbery, John. *100 Multiple-Choice Questions*. New York: Adventures in Poetry, 2000.
+- Zambra, Alejandro. *Multiple Choice*. New York: Penguin Random House, 2016.
+
+**Critical Context:**
+- Saum-Pascual, Alex. "On Bodies, Surveys, Viruses and Rooms. Enter Corporate Poetry." *Texts of Discomfort: Interactive Storytelling Art*. Jim Pope and María Reyes Eds. Carnegie Mellon ETC Press, 2021. 250-281.
+- Zuboff, Shoshana. *The Age of Surveillance Capitalism. The Fight for a Human Future at the New Frontier of Power*. London: Profile Books, 2019.
+
+**Google's Terms:**
+https://transparency.google/our-policies/product-terms/google-forms/
