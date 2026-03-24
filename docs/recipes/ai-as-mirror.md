@@ -1,40 +1,44 @@
 ---
-title: AI as Mirror Recipes for Three Digital Selves
+title: AI as Mirror — Recipes for Three Digital Selves
 chef: Carrie Sijia Wang
 abstract: Three recipes for creating AI chatbot versions of yourself using rule-based scripting, Markov chains, and large language models.
 description: > 
-     [Please, write 250 words or less]
+     I share recipes for creating three different versions of digital selves. Each recipe blends your inner monologues or stream-of-consciousness writings with chatbot algorithms to distort and reflect the human experience. The first recipe, SCRIPTED SELF, uses rule-based keyword matching to archive your thoughts in an interactive way. It tastes predictable and comforting. The second recipe, REMIXED SELF, utilizes Markov chains to reorganize your words and phrases based on probability. This is a good dish to prepare when you feel trapped in your own thoughts, or want to invite a little randomness into your thinking and writing. The third recipe, REFLECTED SELF, is made by instructing an existing large language model to draw from a database of your personalized writings when it responds to you. The resulting flavor exists on a scale: one end is how you perceive yourself, and the other end is how you are interpreted through an opaque collective intelligence. These recipes for fake yous are not meant to replace the real you, nor are they any good in substituting your connections with human friends and genuine experiences. They are digital mimicries of fragments of reality—an experiment to explore what it means to be human in an AI-infused, machine-coded world.
 genres:
   - Human-computer collaboration
 difficulty_pans: 2
 yields: >
-  write 50-words or less yileds
+  Three versions of digital selves archived, remixed, and reflected through chatbot techniques and prediction algorithms. The dishes are highly individual and can taste completely different depending on who makes them.
 github_link: (https://github.com/markcmarino/joy-of-electronic-literature-recipes/blob/master/docs/recipes/ai-as-mirror.md?plain=1)
 ---
 
 # AI as Mirror \- Recipes for Three Versions of Digital Selves
 
 Carrie Sijia Wang  
-Adjunct Instructor (Interactive Media Arts / Real-Time Media & IMA courses)  
+Adjunct Instructor (Interactive Media Arts)  
 New York University
 
 **Class of E-Lit: Chatbots**  
-**Dish:** Scripted Self is a dish that archives conversations with yourself and turns them into a keyword-matching chatbot program. You can see it as an interactive way of accessing your inner dialogues. For most, it tastes predictable and comforting.
+
+**Dish:** Scripted Self is an interactive way of accessing your inner dialogues. Remixed Self brings unexpected tastes to your familiar thoughts. Reflected Self blends your own perspectives with the faceless crowd behind machine learning algorithms.
 
 **Ingredients and cooking method:**
 
-- **Data:** Prewritten conversations with yourself.
+- **Data:** Your writings in digital format. 
 
-- **AI:** The AI ingredient in this dish is prepared as a rule-based chatbot that matches your input to the corresponding response, by identifying keywords. 
+- **AI:** The three recipes use AI, whether retrieval-based or generative, in different experimental ways, as an ingredient that distorts and reflects the human experience.
 
 - **p5.js:** A free, open-source JavaScript library for creative coding. It is used to code a user interface for the chatbot program.
 
 - **RiveScript:** A simple scripting language for chatbots that matches keywords in your input to scripted responses.
 
-**Number of servings:** 1  
+- **RiTa:** A free, open-source library for writing in computational environments. It has a set of functionalities to build text-based Markov Chain models.
+
+**Number of servings:** 1 
+
 **Rating: 🍳🍳 medium**
 
-**Introduction**
+## Introduction
 
 You may have tried out different kinds of chatbots, most of whom are friendly assistant types that feel a little bland, or others that are customized to impersonate celebrities or fictional characters (like the ones on character.ai \- [https://character.ai/](https://character.ai/)). But what about a chatbot that is programmed to be a version of you? 
 
@@ -42,7 +46,7 @@ In this article, I share recipes for creating three versions of your digital sel
 
 **These recipes for fake yous are not meant to replace the real you**, nor are they any good in substituting your connections with human friends and genuine experiences. They are digital mimicries of fragments of reality—an experiment to explore what it means to be human in an AI-infused, machine-coded world.
 
-**Background: A Few More Words About AI**
+## Background: A Few More Words About AI
 
 **A Controversial Ingredient**
 
@@ -62,7 +66,7 @@ The recipes below use different types of AI cooking methods, including both trad
 
 ## Directions:
 
-To prepare:
+**To prepare:**
 
 1. Write down a conversation with yourself. There are various ways to do this depending on your intention for the dish. For example:
 
@@ -89,17 +93,19 @@ To prepare:
 6. Open the following cooking template in your browser (or see **Appendix 01** for code):  
    [https://tinyurl.com/scriptedself](https://tinyurl.com/scriptedself)
 
-To make:
+**To make:**
 
 1. What you see now is the starter code for the RiveScript part of the bot. You can now build on top of it, adding your own prewritten input and responses, without deleting any of the existing code.
 
 2. To add a keyword / response pair, add to the bottom of the code:
 
-| \+ \[\*\] keyword you say \[\*\] \- The chatbot’s response. |
-| :---- |
+```
++ [*] keyword you say [*]
+- The chatbot’s response.
+```
 
      
-   *Syntax:* 
+> *Syntax:* 
 
 * In RiveScript, the user’s input is followed by a plus sign (+), and the bot’s response by a minus sign (-) right after the input.
 
@@ -107,28 +113,37 @@ To make:
 
 * To code the user’s input as a keyword (so the program can later match one word or phrase without having to match an entire sentence), use \[\*\] on either end of the keyword to frame it.
 
-  For example:
+> For example:
 
-| \+ \[\*\] why i make art \[\*\] \- You make art to raise questions, and also to make yourself feel better about your own existence, which is totally valid. |
-| :---- |
+```
++ [*] why i make art [*]
+- You make art to raise questions, and also to make yourself feel better about your own existence, which is totally valid.
+```
 
-5. If you want the program to randomly select from a few different responses when a certain key phrase is matched, you can do so by adding more responses after an input:
+3. If you want the program to randomly select from a few different responses when a certain key phrase is matched, you can do so by adding more responses after an input:
 
-| \+ \[\*\] hello \[\*\] \- Hi there\!  \- Hello my favorite human\! \- Greetings.  |
-| :---- |
+```
++ [*] hello [*]
+- Hi there!
+- Hello my favorite human!
+- Greetings.
+```
 
-6. You may have noticed in the template, there is a plus sign followed by a star sign (+ \*). This is called a “catchall” in RiveScript, meaning the response(s) following it will be what the chatbot says when no keyword or phrase has been matched. It’s always helpful to have a few pleasant catchall responses guiding the user (in this case, yourself\!). Go ahead and modify the catchall responses based on your own needs. For example:
+4. You may have noticed in the template, there is a plus sign followed by a star sign (+ \*). This is called a “catchall” in RiveScript, meaning the response(s) following it will be what the chatbot says when no keyword or phrase has been matched. It’s always helpful to have a few pleasant catchall responses guiding the user (in this case, yourself\!). Go ahead and modify the catchall responses based on your own needs. For example:
 
-| \+ \* \- I didn’t quite get that. Maybe add this to my vocabulary? \- My brain is not as complex as yours. Try telling me something simple such as how you’re feeling? |
-| :---- |
+```
++ *
+- I didn’t quite get that. Maybe add this to my vocabulary?
+- My brain is not as complex as yours. Try telling me something simple such as how you’re feeling?
+```
 
-To taste:
+**To taste:**
 
 1. After adding all the input/response pairs you’ve written in RiveScript’s format, press the play button under the p5 tab at the top left corner to start the program.
 
 2. Now you can enjoy the dish by typing into the input field and chatting with the bot.
 
-Note on privacy:
+**Note on privacy:**
 
 - If you are not saving the program to your p5 web editor account, the changes to the RiveScript code will be erased after you close the browser. 
 
@@ -160,27 +175,27 @@ Note on privacy:
 
 ## Directions:
 
-To prepare:
+**To prepare:**
 
 1. Type up your writings as data for the bot. You could include journal entries, essays you’ve written, stream-of-consciousness inner monologues, notes you took for brainstorming ideas, your morning pages (as introduced in Julia Cameron’s *The Artist's Way*), etc.
 
 2. Open the following cooking program in your browser (see **Appendix 02** for code):  
    [https://tinyurl.com/remixedself](https://tinyurl.com/remixedself)
 
-To make:
+**To make:**
 
 1. You are now seeing the interface of the bot, where you can start remixing your writings right away. Alternatively, if you are interested in seeing the code that is making the dish, or want to make changes to the code to add your own flavor, click on the title of the program at the top left corner of the window to see behind the scenes.
 
 2. Copy and paste the texts you’ve prepared, all of it, into the input field, and press “PROCESS MY WORDS.”  
    Now your writing has been made into a Markov Chain model that can generate more sentences based on probabilities in your original text.
 
-To taste:
+**To taste:**
 
 1. Press “GENERATE A THOUGHT” to see a remixed sentence—a new thought, based on your old thoughts.
 
 2. Some of the generated sentences may feel like random mix-and-matches of your writings. In other cases, interesting connections could be made, new meanings formed. In my experience, I have even found this dish occasionally revealing how I think on a subconscious level.
 
-Note on privacy:
+**Note on privacy:**
 
 - Your text stays private. This recipe template runs entirely in your browser and does not send any of your input to a server. Nothing is collected or stored—everything happens locally on your device. Cook with peace of mind.
 
@@ -201,15 +216,16 @@ Note on privacy:
   The cooking method in this dish is a manual, simplified version of **retrieval-augmented generation (RAG)**. It is a technique that enables large language models to retrieve from a customized database when generating responses.
 
 **Number of servings:** 1  
+
 **Rating: 🍳🍳 medium**
 
-Directions:
+# Directions:
 
-To prepare:
+**To prepare:**
 
 - Similar to the second dish, type up your writings to be used as the database for the AI chatbot to draw from. This could include journal entries, essays, stream-of-consciousness inner monologues, etc.
 
-To make:
+**To make:**
 
 1. Create an account and sign in: [https://chatgpt.com/](https://chatgpt.com/) 
 
@@ -220,7 +236,7 @@ To make:
 | In this conversation, you are a version of me, not an AI assistant. Perform a personality based the following text, adopt the tone of voice, always retrieve and mix some of the sentences in your response, answer in less than 30 words: \[paste all of your writings here\] |
 | :---- |
 
-To taste:
+**To taste:**
 
 1. Simply start chatting with the AI after sending the prompt.
 
@@ -235,12 +251,18 @@ To taste:
 
    But don’t underestimate the “low-tech,” free version of the dish, which already has a complex, layered flavor that might reveal just as much about how these language models work as it does about you.
 
-An example:
+**An example:**
 
 I used the opening paragraphs of this article as my “database” for ChatGPT to draw from, and here is an excerpt of the conversation:
 
-| Me: who are you Bot: I’m a digital mimicry—fragments of you, reflecting but never fully feeling. I explore what it means to be human, but the real, messy experience? That’s yours alone. Me: ok but people are already using AI to replace real experiences Bot: That’s the tricky part—AI can distort reality, tempting people to replace genuine human connection with digital mimicry, but these recipes are meant to question and reflect, not to substitute real life. Me: right i never want that Bot: And that’s exactly why these digital versions are experiments—meant to explore, not replace the rich, messy, unpredictable life only you can live. Real connection stays sacred. |
-| :---- |
+| Dialogue |
+| :-- |
+| **Me:** who are you |
+| **Bot:** I’m a digital mimicry—fragments of you, reflecting but never fully feeling. I explore what it means to be human, but the real, messy experience? That’s yours alone. |
+| **Me:** ok but people are already using AI to replace real experiences |
+| **Bot:** That’s the tricky part—AI can distort reality, tempting people to replace genuine human connection with digital mimicry, but these recipes are meant to question and reflect, not to substitute real life. |
+| **Me:** right i never want that |
+| **Bot:** And that’s exactly why these digital versions are experiments—meant to explore, not replace the rich, messy, unpredictable life only you can live. Real connection stays sacred. |
 
 ## Works Cited
 
