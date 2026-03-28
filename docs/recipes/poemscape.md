@@ -17,11 +17,17 @@ github_link: https://github.com/markcmarino/joy-of-electronic-literature-recipes
 by Christine Wilks, PhD
 
 **Class of E-lit:** E-Poetry: animated interactive generative poem
+
 **Dish:** a delicious mix of words, color, motion, spatial orientation and interactivity.
+
 **Code language:** HTML (Hypertext Markup Language), CSS (Cascading Style Sheets)  and JavaScript.
+
 **Required ingredients:** Computer, code editor, web browser (to see your code run and inspect it while it's running).
+
 **Preparation and cooking time:** 20 minutes.
+
 **Number of servings and serving size:** 1 interactive poemscape
+
 **Rating:** 🍳🍳 two pans, medium
 
 Landscape, cityscape, seascape, cloudscape, moonscape, soundscape, bodyscape... It's surprising how many things can be conceived as a type of '-scape' \- dreamscape, moodscape, wordscape, memescape, mediascape, pixelscape...
